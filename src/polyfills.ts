@@ -43,6 +43,11 @@
 /** IE10 and IE11 requires the following for the Reflect API. */
 // import 'core-js/es6/reflect';
 
+import '@webcomponents/custom-elements/custom-elements.min'
+
+/** Required for custom elements for apps building to es5. */
+import '@webcomponents/custom-elements/src/native-shim'
+
 /**
  * Web Animations `@angular/platform-browser/animations`
  * Only required if AnimationBuilder is used within the application and using IE/Edge or Safari.
